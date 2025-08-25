@@ -407,6 +407,10 @@ uniq file22
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
 
+<img width="782" height="169" alt="1" src="https://github.com/user-attachments/assets/71bcf8a8-7211-44c8-ac41-4e6c2bc20c8d" />
+
+
+
 cat < urllist.txt
 ```
 www. yahoo. com
@@ -423,16 +427,20 @@ www. mrcet.... com
 cat urllist.txt | tr -d ' '
  ## OUTPUT
 
+<img width="782" height="79" alt="2" src="https://github.com/user-attachments/assets/b679c5ce-b410-47cb-8e20-a2cad217930e" />
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
 
+<img width="782" height="79" alt="3" src="https://github.com/user-attachments/assets/2183b0f9-b565-456d-a347-2d33a2e732f1" />
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
+
+<img width="782" height="171" alt="4" src="https://github.com/user-attachments/assets/ea06a9f2-c7ab-4f97-adaa-8d527214d890" />
 
 
 mkdir backupdir
@@ -444,17 +452,29 @@ cd backupdir
 tar -tvf backup.tar
 ## OUTPUT
 
+<img width="782" height="171" alt="5" src="https://github.com/user-attachments/assets/9702c2bc-a503-43c0-b008-7180a87d3c8c" />
+
+
 
 tar -xvf backup.tar
 ## OUTPUT
+
+<img width="782" height="171" alt="6" src="https://github.com/user-attachments/assets/9b773880-d96d-4cf9-8d4b-e8be33a7dccc" />
+
+
 
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
+
+<img width="782" height="42" alt="7" src="https://github.com/user-attachments/assets/ae7f5b45-e406-407b-a328-79b81276c367" />
+
  
 gunzip backup.tar.gz
 ## OUTPUT
+
+<img width="782" height="42" alt="8" src="https://github.com/user-attachments/assets/8c85addc-560b-44f5-8555-1fbef81a4cda" />
 
  
 # Shell Script
