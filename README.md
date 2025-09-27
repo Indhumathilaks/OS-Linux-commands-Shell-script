@@ -72,7 +72,8 @@ comm file1 file2
 diff file1 file2
 ## OUTPUT
 
-![Uploading image.png…]()
+<img width="527" height="275" alt="image" src="https://github.com/user-attachments/assets/365d36b7-7bac-4dcc-96a0-739970130c8b" />
+
 
 
 #Filters
