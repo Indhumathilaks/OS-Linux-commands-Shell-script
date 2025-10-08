@@ -43,28 +43,32 @@ s.n. dasgupta
 cat < file1
 ## OUTPUT
 
-<img width="361" height="176" alt="image" src="https://github.com/user-attachments/assets/0157b375-478a-458c-9e54-c0008a70034d" />
+![WhatsApp Image 2025-10-06 at 17 52 07_fb886e79](https://github.com/user-attachments/assets/7b7bbe30-0b5e-47e8-88bb-e3a84c73cbfb)
+
 
 
 
 cat < file2
 ## OUTPUT
 
-<img width="420" height="76" alt="image" src="https://github.com/user-attachments/assets/d04143dd-4534-4dbf-b81a-fad99b667b2a" />
+![WhatsApp Image 2025-10-06 at 17 52 43_604d0cfa](https://github.com/user-attachments/assets/7deff71e-c18c-4318-a750-cf1871783ee0)
+
 
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
 
-<img width="453" height="303" alt="image" src="https://github.com/user-attachments/assets/7c3ef1b8-74ad-49c6-b0df-c086059ad9a8" />
+![WhatsApp Image 2025-10-06 at 17 53 30_c6f5171f](https://github.com/user-attachments/assets/53505c53-b896-4a44-9a49-3f759336a7d0)
+
 
 
  
 comm file1 file2
  ## OUTPUT
 
-<img width="527" height="275" alt="image" src="https://github.com/user-attachments/assets/8b4e79aa-baa0-4b67-8ac0-9cb4c1d78871" />
+![WhatsApp Image 2025-10-06 at 17 54 11_ddb6ffdf](https://github.com/user-attachments/assets/04f99e11-63c3-4f8c-b9e9-76aebbfb4ccb)
+
 
 
 
@@ -72,7 +76,8 @@ comm file1 file2
 diff file1 file2
 ## OUTPUT
 
-<img width="527" height="275" alt="image" src="https://github.com/user-attachments/assets/365d36b7-7bac-4dcc-96a0-739970130c8b" />
+![WhatsApp Image 2025-10-06 at 17 54 35_ec797553](https://github.com/user-attachments/assets/4b673822-38c2-4964-a95a-16c33ea7be35)
+
 
 
 
@@ -98,21 +103,23 @@ cat > file22
 cut -c1-3 file11
 ## OUTPUT
 
-<img width="692" height="65" alt="cut1" src="https://github.com/user-attachments/assets/35251099-cde4-42d9-9b00-9e2f5a1832d1" />
+![WhatsApp Image 2025-10-06 at 17 56 25_3348e5ee](https://github.com/user-attachments/assets/cbb9af72-658e-4e09-b28e-ff6fb5b1f674)
+
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
 
-<img width="691" height="78" alt="cut2" src="https://github.com/user-attachments/assets/bb0d0424-c301-4588-b23a-c77001aa47dd" />
+![WhatsApp Image 2025-10-06 at 17 56 42_57db3ff1](https://github.com/user-attachments/assets/5dbf64b7-a43c-42f7-98c5-1ebf2784a14e)
+
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
 
+![WhatsApp Image 2025-10-06 at 17 57 04_aca285c1](https://github.com/user-attachments/assets/d756d374-6b8d-48fe-a3ef-7cdfd7c4556f)
 
-<img width="688" height="79" alt="cut3" src="https://github.com/user-attachments/assets/0ebea1cc-2d80-40a3-aae6-a1ecb85cd7fe" />
 
 
 cat < newfile 
@@ -128,47 +135,53 @@ hello world
 grep Hello newfile 
 ## OUTPUT
 
-<img width="692" height="44" alt="grep1" src="https://github.com/user-attachments/assets/393e5dab-8702-4c94-b7c3-60ec2757ce7d" />
+![WhatsApp Image 2025-10-06 at 18 04 26_a45f24ea](https://github.com/user-attachments/assets/f5c2e5f5-0b72-4d1b-b955-2ab8e5b1cc65)
+
 
 
 grep hello newfile 
 ## OUTPUT
 
-<img width="692" height="44" alt="grep2" src="https://github.com/user-attachments/assets/5d898378-423c-4bfc-a3a8-5146dab66edc" />
+![WhatsApp Image 2025-10-06 at 18 04 53_d740ca3d](https://github.com/user-attachments/assets/d4e49b87-f50f-49af-b85a-24cff0cc9943)
+
 
 
 
 grep -v hello newfile 
 ## OUTPUT
 
-<img width="692" height="44" alt="grep3" src="https://github.com/user-attachments/assets/a232bdf7-e805-48ab-88ca-e410a0d8737c" />
+![WhatsApp Image 2025-10-06 at 18 05 40_45238042](https://github.com/user-attachments/assets/42058cb9-4198-4b37-9b01-158b4727c8fe)
 
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
 
-<img width="716" height="60" alt="grep4" src="https://github.com/user-attachments/assets/bbe400ef-a30b-43eb-bf84-acb1270209b9" />
+![WhatsApp Image 2025-10-06 at 18 06 04_864a6679](https://github.com/user-attachments/assets/bacfdf78-a290-4b17-9bdb-63d2fb670c89)
+
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
 
-<img width="751" height="43" alt="grep5" src="https://github.com/user-attachments/assets/9966d2da-a636-46d4-96e6-172c65afca40" />
+![WhatsApp Image 2025-10-06 at 18 06 37_1c2dc3d7](https://github.com/user-attachments/assets/9e836ac4-6352-4fac-8dc9-eab56e7e6910)
+
 
 
 
 grep -R ubuntu /etc
 ## OUTPUT
 
-<img width="1285" height="414" alt="grep6" src="https://github.com/user-attachments/assets/c8a4b718-fc8a-4375-9f42-f1e3e67ec24f" />
+![WhatsApp Image 2025-10-06 at 18 07 35_34d228d4](https://github.com/user-attachments/assets/795224bf-0bc7-4a8c-8966-379f329d8222)
+
 
 
 grep -w -n world newfile   
 ## OUTPUT
 
-<img width="819" height="62" alt="grep7" src="https://github.com/user-attachments/assets/cd42dbc1-a986-4087-9b4e-e95eda53b57d" />
+![WhatsApp Image 2025-10-06 at 18 08 00_192b1218](https://github.com/user-attachments/assets/f226329d-89b0-4c64-8ae1-52905f984e24)
+
 
 
 
@@ -194,75 +207,87 @@ Linux is best in this World
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
 
-<img width="819" height="62" alt="egrep" src="https://github.com/user-attachments/assets/d319da95-f16f-4dcd-96f9-6cea68bcb80a" />
+![WhatsApp Image 2025-10-06 at 18 08 54_baeab182](https://github.com/user-attachments/assets/4a279df5-e8bb-450d-8253-89d675f16941)
+
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
 
-<img width="819" height="62" alt="egrep1" src="https://github.com/user-attachments/assets/d24d93f7-867c-409a-ad66-b96135d8c103" />
+![WhatsApp Image 2025-10-06 at 18 09 25_27757d94](https://github.com/user-attachments/assets/da57fc8d-f0b2-46c3-bb4e-ef293296e46f)
+
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
 
-<img width="819" height="62" alt="egrep2" src="https://github.com/user-attachments/assets/c775398b-1a58-437d-88f1-7c45535069cb" />
+![WhatsApp Image 2025-10-06 at 18 10 15_d7555906](https://github.com/user-attachments/assets/c1d27149-40c8-4bd6-9bcd-bc7f786a93ca)
+
 
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
 
-<img width="817" height="44" alt="egrep3" src="https://github.com/user-attachments/assets/c0269fd7-cbc1-435e-aaba-05ba63b4171a" />
+![WhatsApp Image 2025-10-06 at 18 12 07_de5afe67](https://github.com/user-attachments/assets/21e1f500-3f83-4339-b8a7-296b24985340)
+
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
 
-<img width="820" height="57" alt="egrep4" src="https://github.com/user-attachments/assets/cbe47c80-6016-4b2c-9970-15170e73a51f" />
+![WhatsApp Image 2025-10-06 at 18 12 28_b93b1807](https://github.com/user-attachments/assets/4aa5ed80-5676-4663-b573-e67b1f78968a)
+
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
 
-<img width="820" height="42" alt="egrep5" src="https://github.com/user-attachments/assets/20ce3418-81d8-4f3e-b3e3-4a3fd9d91304" />
+![WhatsApp Image 2025-10-06 at 18 12 54_f4e97669](https://github.com/user-attachments/assets/506536dc-0186-4411-a004-e893c92e3f7a)
+
 
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
 
-<img width="822" height="78" alt="egrep6" src="https://github.com/user-attachments/assets/5a2fe7f2-aa83-434d-a6a8-eafb31f133ad" />
+![WhatsApp Image 2025-10-06 at 18 13 27_111b468b](https://github.com/user-attachments/assets/c49d6c1a-2313-4f87-b278-03db9b57ec65)
+
 
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
 
-<img width="819" height="41" alt="egrep7" src="https://github.com/user-attachments/assets/870fd78a-2dba-4271-ba3e-ffa2246f2ac6" />
+![WhatsApp Image 2025-10-06 at 18 13 50_527df7ba](https://github.com/user-attachments/assets/742d605c-c029-434a-85ff-5f1ca6efcce0)
+
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
 
-<img width="819" height="41" alt="egrep8" src="https://github.com/user-attachments/assets/2f56906e-dd33-46a6-a29a-ad2c08dd6b96" />
+![WhatsApp Image 2025-10-06 at 18 14 21_ce56bc97](https://github.com/user-attachments/assets/30a4d503-b506-4a06-b3cb-80e890594e2f)
+
 
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
 
-<img width="819" height="41" alt="egrep9" src="https://github.com/user-attachments/assets/48f56eb1-23ab-4a58-a8a1-49c3b44ac6e4" />
+![WhatsApp Image 2025-10-06 at 18 14 57_d5755c14](https://github.com/user-attachments/assets/e5bf46b2-3e47-4f18-82ff-af6703b5c2c3)
+
 
 
 egrep l{2} newfile
 ## OUTPUT
 
-<img width="821" height="62" alt="egrep10" src="https://github.com/user-attachments/assets/d3b03a02-80a9-4e8e-8b99-9fff05ae242d" />
+![WhatsApp Image 2025-10-06 at 18 15 23_5f9b5eb8](https://github.com/user-attachments/assets/61cab127-747d-460e-95fb-ae6745753a86)
+
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
 
-<img width="822" height="78" alt="egrep11" src="https://github.com/user-attachments/assets/d49e5e86-35d1-4e43-bea4-fcc0a0096dfa" />
+![WhatsApp Image 2025-10-06 at 18 15 45_2f38bca1](https://github.com/user-attachments/assets/460a1ae9-4e27-416f-835c-23155c776ee2)
+
 
 
 cat > file23
@@ -282,94 +307,98 @@ cat > file23
 sed -n -e '3p' file23
 ## OUTPUT
 
-<img width="707" height="44" alt="sed" src="https://github.com/user-attachments/assets/bfe3c2f9-c82f-4248-ad76-95a08ac254f9" />
-
-
-sed -n -e '$p' file23
-## OUTPUT
-
-<img width="707" height="44" alt="sed1" src="https://github.com/user-attachments/assets/6e2492d8-d76e-4ed9-9f07-981de456b4ff" />
-
+![WhatsApp Image 2025-10-06 at 18 16 44_7e63efde](https://github.com/user-attachments/assets/a842404a-4f53-4d2f-a2de-10900061afdc)
 
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
 
-<img width="718" height="166" alt="sed2" src="https://github.com/user-attachments/assets/d4d28448-3618-4dd5-aa3d-adc6a05dfb1d" />
+![WhatsApp Image 2025-10-06 at 18 17 27_1e292b58](https://github.com/user-attachments/assets/dc6d4a32-b61a-47a1-9f34-7935c7117cc0)
+
 
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
 
-<img width="718" height="166" alt="sed3" src="https://github.com/user-attachments/assets/0ed791b6-8ed9-44ab-b8a6-afc3372cacb5" />
+![WhatsApp Image 2025-10-06 at 18 17 46_430ef07e](https://github.com/user-attachments/assets/e7c6ecf6-3c16-43ef-a6db-9ad944325782)
+
 
 
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
 
-<img width="718" height="166" alt="sed4" src="https://github.com/user-attachments/assets/677ec2e7-ea92-474c-8735-0d33d6801afb" />
+![WhatsApp Image 2025-10-06 at 18 18 09_0180fdbf](https://github.com/user-attachments/assets/e51f0838-c95d-441b-979c-fd963b25529d)
+
 
 
 sed -n -e '1,5p' file23
 ## OUTPUT
 
-<img width="718" height="111" alt="sed5" src="https://github.com/user-attachments/assets/f73c1e6c-4472-4bdc-b28e-94ec473f09ed" />
+![WhatsApp Image 2025-10-06 at 18 18 27_44087672](https://github.com/user-attachments/assets/a1020c51-25da-459d-8011-408f19f9165a)
 
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
 
-<img width="718" height="78" alt="sed6" src="https://github.com/user-attachments/assets/94c2b6a2-40bc-4360-a6c2-383b75a120e3" />
+![WhatsApp Image 2025-10-06 at 18 18 43_76311c56](https://github.com/user-attachments/assets/b6fd0887-2fef-4da6-9f82-ee01e595291c)
 
 
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
 
-<img width="738" height="59" alt="sed7" src="https://github.com/user-attachments/assets/9207c9d4-9b84-4102-a8f5-c92c46b7c2c9" />
+![WhatsApp Image 2025-10-06 at 18 19 06_c9216c7c](https://github.com/user-attachments/assets/8c518c7f-98ea-4c21-af52-ead4e2ec55b0)
+
 
 
 seq 10 
 ## OUTPUT
 
-<img width="738" height="202" alt="seq" src="https://github.com/user-attachments/assets/1a862ebd-ad18-421f-a157-574c3d030bbc" />
+![WhatsApp Image 2025-10-06 at 18 19 59_1fecb743](https://github.com/user-attachments/assets/09444bf0-6703-46cd-bb8b-8bb80055cab9)
+
 
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
 
-<img width="738" height="81" alt="seq1" src="https://github.com/user-attachments/assets/20f7b2fa-bba1-40c3-ba8a-02e6b685107e" />
+![WhatsApp Image 2025-10-06 at 18 21 03_9b53a702](https://github.com/user-attachments/assets/62babfee-002c-410a-b113-0cd203862b2b)
+
 
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
 
-<img width="738" height="81" alt="seq2" src="https://github.com/user-attachments/assets/188db4ea-eda8-4b5a-889e-c7a68bc12ce1" />
+![WhatsApp Image 2025-10-06 at 18 21 16_84c5ee9b](https://github.com/user-attachments/assets/ca63f0a6-0607-4aa0-a22d-8d6474cf7a60)
+
 
 
 seq 3 | sed '2a hello'
 ## OUTPUT
 
-<img width="738" height="93" alt="seq3" src="https://github.com/user-attachments/assets/4445a5dd-efb0-455c-80fe-21acc7171cdd" />
+![WhatsApp Image 2025-10-06 at 18 21 48_bb640ab7](https://github.com/user-attachments/assets/50675f34-d547-4464-8222-a7450170f01e)
+
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
 
-<img width="738" height="86" alt="seq4" src="https://github.com/user-attachments/assets/ea23a766-b031-4c5a-9afd-be5cc83d885f" />
+![WhatsApp Image 2025-10-06 at 18 22 13_5462843f](https://github.com/user-attachments/assets/2afd2b05-3f48-4fe2-9406-17994e19ccd2)
+
 
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
 
-<img width="738" height="83" alt="seq5" src="https://github.com/user-attachments/assets/7df52347-8c5b-4c46-a1c4-7329aaaefafc" />
+![WhatsApp Image 2025-10-06 at 18 22 42_177f205b](https://github.com/user-attachments/assets/2e755939-ba92-4909-b36f-ef371ef2e54a)
+
 
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
 
-<img width="738" height="83" alt="sed-n" src="https://github.com/user-attachments/assets/1efaf0e2-de32-4914-9658-7e0ecc124f6a" />
+![WhatsApp Image 2025-10-06 at 18 23 09_1d79e043](https://github.com/user-attachments/assets/7eb77e97-53fa-4523-bda3-942c76fedbb1)
+
 
 
 sed -n '2,4{s/$/*/;p}' file23
@@ -387,7 +416,8 @@ cat > file21
 sort file21
 ## OUTPUT
 
-<img width="738" height="115" alt="sort" src="https://github.com/user-attachments/assets/6b03e9e4-200b-42ab-87dd-36fab3a3718a" />
+![WhatsApp Image 2025-10-06 at 18 24 24_8fab3df8](https://github.com/user-attachments/assets/a7efaa42-d7ec-4185-a499-798ce5d3cfe1)
+
 
 
 cat > file22
@@ -402,7 +432,8 @@ cat > file22
 uniq file22
 ## OUTPUT
 
-<img width="738" height="115" alt="uniq" src="https://github.com/user-attachments/assets/4a2e0985-750d-4d4e-ae8b-5fabfe76aba8" />
+![WhatsApp Image 2025-10-06 at 18 25 01_8807f8b9](https://github.com/user-attachments/assets/60efe219-8bbc-437c-8a3f-8308ba39d6cf)
+
 
 
 
@@ -411,7 +442,8 @@ uniq file22
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
 
-<img width="782" height="169" alt="1" src="https://github.com/user-attachments/assets/71bcf8a8-7211-44c8-ac41-4e6c2bc20c8d" />
+![WhatsApp Image 2025-10-06 at 18 25 24_06eea011](https://github.com/user-attachments/assets/c487e906-d7e0-4227-8316-00267bd8ac17)
+
 
 
 
@@ -431,20 +463,17 @@ www. mrcet.... com
 cat urllist.txt | tr -d ' '
  ## OUTPUT
 
-<img width="782" height="79" alt="2" src="https://github.com/user-attachments/assets/b679c5ce-b410-47cb-8e20-a2cad217930e" />
+![WhatsApp Image 2025-10-06 at 18 26 36_c248a3b5](https://github.com/user-attachments/assets/fd1bc870-24db-4bfa-bdd5-ed0b417bf683)
 
- 
-cat urllist.txt | tr -d ' ' | tr -s '.'
-## OUTPUT
 
-<img width="782" height="79" alt="3" src="https://github.com/user-attachments/assets/2183b0f9-b565-456d-a347-2d33a2e732f1" />
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
 
-<img width="782" height="171" alt="4" src="https://github.com/user-attachments/assets/ea06a9f2-c7ab-4f97-adaa-8d527214d890" />
+![WhatsApp Image 2025-10-06 at 18 27 25_12a59141](https://github.com/user-attachments/assets/4cd6ba62-41a4-4ee5-8758-2edda02b021c)
+
 
 
 mkdir backupdir
@@ -456,14 +485,16 @@ cd backupdir
 tar -tvf backup.tar
 ## OUTPUT
 
-<img width="782" height="171" alt="5" src="https://github.com/user-attachments/assets/9702c2bc-a503-43c0-b008-7180a87d3c8c" />
+![WhatsApp Image 2025-10-06 at 18 28 45_e4d13a26](https://github.com/user-attachments/assets/de539ef3-e689-4d83-8c84-3f388ba63abc)
+
 
 
 
 tar -xvf backup.tar
 ## OUTPUT
 
-<img width="782" height="171" alt="6" src="https://github.com/user-attachments/assets/9b773880-d96d-4cf9-8d4b-e8be33a7dccc" />
+![WhatsApp Image 2025-10-06 at 18 28 59_c09ade43](https://github.com/user-attachments/assets/bcd51111-0854-4b02-8b48-b8c255539e44)
+
 
 
 
@@ -472,13 +503,15 @@ gzip backup.tar
 ls .gz
 ## OUTPUT
 
-<img width="782" height="42" alt="7" src="https://github.com/user-attachments/assets/ae7f5b45-e406-407b-a328-79b81276c367" />
+![WhatsApp Image 2025-10-06 at 18 31 41_a1b19cb7](https://github.com/user-attachments/assets/dca776f7-89e8-4b69-9325-a760efa6b991)
+
 
  
 gunzip backup.tar.gz
 ## OUTPUT
 
-<img width="782" height="42" alt="8" src="https://github.com/user-attachments/assets/8c85addc-560b-44f5-8555-1fbef81a4cda" />
+![WhatsApp Image 2025-10-06 at 18 32 39_96f724d5](https://github.com/user-attachments/assets/d337bc09-81cd-4ffd-a7e7-7be06f0adfb7)
+
 
  
 # Shell Script
@@ -488,7 +521,6 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 ```
 chmod 755 my-script.sh
 ./my-script.sh
-## OUTPUT
 
  
 cat << stop > herecheck.txt
@@ -499,8 +531,10 @@ for this non stop movement
 stop
 ```
 
+
 cat herecheck.txt
 ## OUTPUT
+![WhatsApp Image 2025-10-06 at 18 36 17_39cf3b44](https://github.com/user-attachments/assets/5b2d422d-a0c0-44ba-8494-124847610e3e)
 
 
 cat < scriptest.sh 
@@ -539,23 +573,18 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
+![WhatsApp Image 2025-10-06 at 18 38 24_187533fe](https://github.com/user-attachments/assets/73b46e6b-02b8-454a-b2a2-5d9114955b5e)
 
  
 ls file1
 ## OUTPUT
+![WhatsApp Image 2025-10-06 at 18 38 41_4044aea8](https://github.com/user-attachments/assets/8ca875a0-3eb2-41aa-be9b-809f75f7d6ea)
 
 echo $?
 ## OUTPUT 
-./one
-bash: ./one: Permission denied
- 
-echo $?
-## OUTPUT 
- 
-abcd
- 
-echo $?
- ## OUTPUT
+![WhatsApp Image 2025-10-06 at 18 41 01_90e9c5f7](https://github.com/user-attachments/assets/eb1c9543-3c6b-44be-93ba-04eb7d81747c)
+
+
 
 
  
@@ -587,7 +616,6 @@ else
 echo "$val1 is less than $val2"
 fi
 ```
-##OUTPUT
 
 
 
@@ -595,6 +623,7 @@ chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
+![WhatsApp Image 2025-10-06 at 18 42 49_d65539b0](https://github.com/user-attachments/assets/122ed363-ea90-4c33-870c-de31d03032c3)
 
 
 # check file ownership
@@ -622,6 +651,9 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+
+![WhatsApp Image 2025-10-06 at 18 43 32_728b4a14](https://github.com/user-attachments/assets/c3a74f52-9a55-4574-ac3c-38a2dd62990f)
+
 
 # check if with file location
 cat>ifnested.sh 
@@ -666,9 +698,6 @@ echo “Sorry, the object does not exist”
 fi
 ```
 
-./ifnested.sh 
-## OUTPUT
-
 
 
 # using numeric test comparisons
@@ -712,6 +741,9 @@ $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
 ##OUTPUT
+![WhatsApp Image 2025-10-06 at 18 50 05_f71e0577](https://github.com/user-attachments/assets/5a168144-ae15-4ac9-a2dd-50fc181af0a4)
+
+
 
 # check if a file
 cat > ifnested.sh 
@@ -761,6 +793,7 @@ $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
 ##OUTPUT
+![WhatsApp Image 2025-10-06 at 18 51 45_d0f59d42](https://github.com/user-attachments/assets/7aeb5758-26a7-4b2a-b59e-43038865aa6d)
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -788,7 +821,6 @@ fi
 $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
-## OUTPUT
 
 
 # testing compound comparisons
@@ -805,6 +837,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+![WhatsApp Image 2025-10-06 at 18 53 53_73cef2a2](https://github.com/user-attachments/assets/558711ac-cbb9-49f1-a074-21305229b680)
 
 # using the case command
 cat >casecheck.sh 
@@ -824,7 +857,10 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
- 
+
+## OUTPUT
+![WhatsApp Image 2025-10-06 at 18 54 39_c083e547](https://github.com/user-attachments/assets/4b59c7bd-8bc7-4f66-8a22-418ee88f59a3)
+
 cat > whiletest
 ```bash
 #!/bin/bash
@@ -839,7 +875,9 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
- 
+## OUTPUT
+![WhatsApp Image 2025-10-06 at 18 56 30_c2b1f0c2](https://github.com/user-attachments/assets/5774a2c9-3705-4d01-98eb-55775d3bf9a9)
+
  
 cat untiltest.sh 
 ```bash
@@ -853,7 +891,10 @@ done
 ``` 
 $ chmod 755 untiltest.sh
  
+ ## OUTPUT
  
+ ![WhatsApp Image 2025-10-06 at 18 57 37_969a55a8](https://github.com/user-attachments/assets/8ae94cc0-a84f-4b32-98d6-f32fd0ce1790)
+
  
 cat forin1.sh 
 ```bash
@@ -892,113 +933,9 @@ done
 $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
- 
-cat forin3.sh 
-```bash
-\#!/bin/bash
-\# another example of how not to use the for command
-for test in I don\'t know if "this'll" work
-do
-echo "word:$test"
-done
-```
-$ ./forin3.sh 
- 
-cat forin1.sh 
-```bash
-#!/bin/bash
-# basic for command
-for test in Alabama Alaska Arizona Arkansas California Colorado
-do
-echo The next state is $test
-done
-```
-$ chmod 755 forin1.sh
+## OUTOUT
+![WhatsApp Image 2025-10-06 at 19 01 25_4649dcdb](https://github.com/user-attachments/assets/bf83044d-dc5d-45df-a6bc-382e4d6c3307)
 
-## OUTPUT
-cat forinfile.sh 
-```bash
-#!/bin/bash
-# reading values from a file
-file="cities"
-for state in `cat $file`
-do
-echo "Visit beautiful $file“
-done
-```
-$ chmod 777 forinfile.sh
-$ cat cities
-Hyderabad
-Alampur
-Basara
-Warangal
-Adilabad
-Bhadrachalam
-Khammam
-
-## OUTPUT
-
-
-cat forctype.sh 
-```bash
-#!/bin/bash
-# testing the C-style for loop
-for (( i=1; i <= 5; i++ ))
-do
-echo "The value of i is $i"
-done
-````
-$ chmod 755 forctype.sh
-$ ./forctype.sh 
-## OUTPUT
-
-cat forctype1.sh 
-```bash
-#!/bin/bash
-# multiple variables
-for (( a=1, b=5; a <= 5; a++, b-- ))
-do
-echo "$a - $b"
-done
-```
-$ chmod 755 forctype.sh
-$ ./forctype1.sh 
-## OUTPUT
-
-cat fornested1.sh 
-```bash
-#!/bin/bash
-# nesting for loops
-for (( a = 1; a <= 3; a++ ))
-do
-echo "Starting loop $a:"
-for (( b = 1; b <= 3; b++ ))
-do
-echo " Inside loop: $b"
-done
-done
-```
-$ chmod 755 fornested1.sh
- 
-$ ./fornested1.sh 
- ## OUTPUT
-
- 
-cat forbreak.sh 
-```bash
-#!/bin/bash
-# breaking out of a for loop
-for var1 in 1 2 3 4 5
-do
-if [ $var1 -eq 3 ]
-then
-break
-fi
-echo "Iteration number: $var1"
-done
-echo "The for loop is completed“
-```
-## OUTPUT
 
 $ chmod 755 forbreak.sh
  
@@ -1024,159 +961,11 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
- 
-cat exread.sh 
-```bash
-#!/bin/bash
-# testing the read command
-echo -n "Enter your name: "
-read name
-echo "Hello $name, welcome to my program. "
- ```
- 
-$ chmod 755 exread.sh 
- 
-$ ./exread.sh 
-## OUTPUT
-
-
- cat exread1.sh
-```bash
-#!/bin/bash
-# testing the read command
-read -p "Enter your name: " name
-echo "Hello $name, welcome to my program. “
-``` 
-$ chmod 755 exread1.sh 
-
-## OUTPUT
+ ![WhatsApp Image 2025-10-06 at 19 07 33_5e27d9ef](https://github.com/user-attachments/assets/bc3128aa-9cd8-48cf-98ae-71e5b9977b7b)
 
 
 
-$ ./exread1.sh 
- 
-cat funcex.sh
-```bash
-#!/bin/bash
-# trying to access script parameters inside a function
-function func {
-echo $[ $1 * $2 ]
-}
-if [ $# -eq 2 ]
-then
-value=`func $1 $2`
-echo "The result is $value"
-else
-echo "Usage: badtest1 a b"
-fi
-```
-## OUTPUT
- ./funcex.sh 
 
- 
- ./funcex.sh 1 2
-
- 
-cat argshift.sh
-```bash
-#!/bin/bash 
- while (( "$#" )); do 
-  echo $1 
-  shift 
-done
-```
-$ chmod 777 argshift.sh
-
-## OUTPUT
-$ ./argshift.sh 1 2 3
- 
- cat argshift1.sh
-```bash
- #/bin/bash 
- # store arguments in a special array 
-args=("$@") 
-# get number of elements 
-ELEMENTS=${#args[@]} 
- # echo each element in array  
-# for loop 
-for (( i=0;i<$ELEMENTS;i++)); do 
-    echo ${args[${i}]} 
-done
-```
-$ chmod 777 argshift.sh
-## OUTPUT
-$ ./argshift.sh 1 2 3
- 
-cat argshift.sh
-```bash
-#!/bin/bash 
-set -x 
-while (( "$#" )); do 
-  echo $1 
-  shift 
-done
-set +x
-```
-## OUTPUT
- ./argshift.sh 1 2 3
- 
- 
-cat > nc.awk
-```bash
-BEGIN{}
-{
-print len=length($0),"\t",$0 
-wordcount+=NF
-chrcnt+=len
-}
-END {
-print "total characters",chrcnt 
-print "Number of Lines are",NR
-print "No of Words count:",wordcount
-}
- ```
-cat>data.dat
-```bash
-bcdfghj
-abcdfghj
-bcdfghj
-ebcdfghj
-bcdfghj
-ibcdfghj
-bcdfghj
-obcdfghj
-bcdfghj
-ubcdfghj
-```
-awk -f nc.awk data.dat
-## OUTPUT 
- 
-cat > palindrome.sh
-```bash
-#num=545
-echo "Enter the number"
-read num
-s=0
-rev=""
-temp=$num
-while [ $num -gt 0 ]
-do
-	# Get Remainder
-	s=$(( $num % 10 ))
-	# Get next digit
-	num=$(( $num / 10 ))
-	# Store previous number and
-	# current digit in reverse
-	rev=$( echo ${rev}${s} )
-done
-if [ $temp -eq $rev ];
-then
-	echo "Number is palindrome"
-else
-	echo "Number is NOT palindrome"
-fi
-```
-## OUTPUT 
 
 
 # RESULT:
